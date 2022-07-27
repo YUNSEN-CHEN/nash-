@@ -1,0 +1,11 @@
+//导入数据
+import excel "E:\数学建模课程\课程\课程05\code\降维\data.xlsx",sheet("Sheet1")firstrow
+
+//判断下降维的维数
+pca 长相 五官 颜值 性格 脾气 腿长 身高
+
+//降到三维
+pca 长相 五官 颜值 性格 脾气 腿长 身高,comp(3)
+
+//生成降维后的数据结果
+predict pca1 pca2 pca3,score
